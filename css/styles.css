@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif; /* Example font family */
-    background-color: #88bd0d;
+    background-color: #0d5cbd;
 }
 
 
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #0dbda5; /* Example background color */
+    background-color: #bd0d56; /* Example background color */
 }
 
 nav {
@@ -34,5 +34,5 @@ nav ul li {
 
 nav ul li h1 {
     font-size: 18px; /* Example font size */
-    color: #333; /* Example color */
+    color: #333333; /* Example color */
 }
