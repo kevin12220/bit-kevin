@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Example font family */
+    background-color: #88bd0d;
+}
+
+
+.container {
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+header {
+    background-color: #0dbda5; /* Example background color */
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Center the nav horizontally */
+    align-items: center; /* Center the items vertically */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px; /* Adjust spacing between items */
+}
+
+nav ul li h1 {
+    font-size: 18px; /* Example font size */
+    color: #333; /* Example color */
+}
