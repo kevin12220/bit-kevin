@@ -1,8 +1,9 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif; /* Example font family */
-    background-color: #0d5cbd;
+    background-image: url('../img/technology-1283624_640.jpg');
+    /* Ajusta la ruta según la ubicación de tu imagen */
+    width: 1900px; /* Ancho de la imagen */
+    height: 1080px; /* Altura de la imagen */
+
 }
 
 
@@ -12,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #bd0d56; /* Example background color */
+    background-color: #55c5f1; /* Example background color */
 }
 
 nav {
@@ -35,4 +36,60 @@ nav ul li {
 nav ul li h1 {
     font-size: 18px; /* Example font size */
     color: #333333; /* Example color */
+}
+.img{
+    background-image: url('../img/Programador\ \(2\).png');
+    /* Ajusta la ruta según la ubicación de tu imagen */
+    width: 250px; /* Ancho de la imagen */
+    height: 500px; /* Altura de la imagen */
+
+}.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background-color: #45a049; /* Cambio de color al pasar el mouse */
+}
+
+header {
+    background-color: #333; /* Color de fondo del encabezado */
+    padding: 20px 0; /* Espaciado interno del encabezado */
+}
+
+.menu {
+    text-align: center; /* Centrar el menú horizontalmente */
+}
+
+.menu ul {
+    list-style: none; /* Eliminar viñetas de la lista */
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block; /* Mostrar elementos de la lista en línea */
+    margin: 0 10px; /* Espaciado entre elementos de la lista */
+}
+
+.menu a {
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+    color: white; /* Color del texto de los enlaces */
+    padding: 10px 20px; /* Espaciado interno de los enlaces */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #555; /* Color de fondo de los enlaces */
+}
+
+.menu a:hover {
+    background-color: #777; /* Cambiar color de fondo al pasar el mouse */
 }
