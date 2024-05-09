@@ -9,9 +9,12 @@ body {
 header {
     background-color: #83e4f5ef; /* Color de fondo del encabezado */
     padding: 20px 0; /* Espaciado interno del encabezado */
+    
 }
 
 .carrusel {
     max-width: 800px; /* ajusta este valor según sea necesario */
     margin: 0 auto; /* centra el contenedor horizontalmente */
 }
+
+
