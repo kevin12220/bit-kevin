@@ -1,5 +1,5 @@
 body {
-    background-color: aliceblue;
+    background-color: rgb(15, 15, 16);
     /* Ajusta la ruta según la ubicación de tu imagen */
     width: 1900px; /* Ancho de la imagen */
     height: 1080px; /* Altura de la imagen */
@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #83e4f5ef; /* Color de fondo del encabezado */
+    background-color: #f8fafaef; /* Color de fondo del encabezado */
     padding: 20px 0; /* Espaciado interno del encabezado */
     
 }
@@ -17,4 +17,8 @@ header {
     margin: 0 auto; /* centra el contenedor horizontalmente */
 }
 
+.centrar{
+    color: rgb(239, 236, 230);
+    text-align: center;
+}
 
